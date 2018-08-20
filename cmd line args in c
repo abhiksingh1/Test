@@ -1,0 +1,10 @@
+ void main(int a,char *b[])
+{
+
+printf("Total no of arguments:%d",a);
+int i;
+for(i=1;i<a;i++)
+{
+printf("\n%s",b[i]);
+}
+}
